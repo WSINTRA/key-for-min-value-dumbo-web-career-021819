@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   testcase = []
 name_hash.each do |x,y,d|
-  testcase = [x,y,d]
+  testcase += [x,y]
 
 end
 puts testcase

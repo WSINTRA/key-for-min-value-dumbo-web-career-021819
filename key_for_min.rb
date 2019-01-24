@@ -4,9 +4,7 @@
 def key_for_min_value(name_hash)
   store = []
 name_hash.each do |x,y|
-
-    store << y
-  
+    store["lowest"] = y
 end
 puts store
 end

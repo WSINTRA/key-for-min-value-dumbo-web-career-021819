@@ -8,9 +8,9 @@ list.each do |x,y|
   if y < testcase
     testcase = y
   end
-  testcase
+  puts testcase
 end
 end
 
 ikea = {:chair => 25, :table => 85, :mattress => 450}
-puts key_for_min_value(ikea)
+key_for_min_value(ikea)

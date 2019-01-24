@@ -7,8 +7,9 @@ list.each do |x,y|
   if y < testcase
     testcase = y
   end
-puts list.include?(testcase)
+
 end
+puts list.include?(testcase)
   puts testcase
 end
 

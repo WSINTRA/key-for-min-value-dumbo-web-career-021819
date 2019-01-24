@@ -5,6 +5,7 @@ def key_for_min_value(name_hash)
 name_hash.each do |x,y,d|
   testcase = [x,y,d]
 end
+testcase
 end
 
 ikea = {:chair => 25, :table => 85, :mattress => 450}

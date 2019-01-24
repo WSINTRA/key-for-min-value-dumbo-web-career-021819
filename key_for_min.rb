@@ -8,8 +8,8 @@ list.each do |x,y|
     testcase = y
   end
 end
-puts list.key(testcase)
+list.key(testcase)
 end
 
-ikea = {:blake => 500, :ashley => 2, :adam => 1}
-key_for_min_value(ikea)
+#ikea = {:blake => 500, :ashley => 2, :adam => 1}
+#key_for_min_value(ikea)

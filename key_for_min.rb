@@ -4,13 +4,7 @@
 def key_for_min_value(list)
 #  testcase = []
 #name_hash.collect do |x,y,d|
-groups = list.group_by { |n| n <=> list.first }
-less_than    = groups[-1] || []
-first        = groups[0]  || []
-greater_than = groups[1]  || []
-quick_sort(less_than) + first + quick_sort(greater_than)
-
-
+list.sort_by(&:last)
 end
 
 ikea = {:chair => 25, :table => 85, :mattress => 450}

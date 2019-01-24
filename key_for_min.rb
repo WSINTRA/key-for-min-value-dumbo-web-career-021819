@@ -10,7 +10,7 @@ first        = groups[0]  || []
 greater_than = groups[1]  || []
 quick_sort(less_than) + first + quick_sort(greater_than)
 
-  
+
 end
 
 ikea = {:chair => 25, :table => 85, :mattress => 450}

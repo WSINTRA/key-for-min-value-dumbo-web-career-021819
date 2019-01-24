@@ -7,7 +7,7 @@ name_hash.each do |x,y,d|
   testcase = [x,y,d]
 
 end
-testcase
+puts testcase
 end
 
 ikea = {:chair => 25, :table => 85, :mattress => 450}

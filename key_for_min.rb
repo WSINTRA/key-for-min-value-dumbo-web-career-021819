@@ -5,7 +5,7 @@ def key_for_min_value(list)
   testcase = 999
 list.each do |x,y|
   if y < testcase
-    testcase = y
+    testcase = x
   end
 
 end

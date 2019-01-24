@@ -9,7 +9,6 @@ list.each do |x,y|
   end
 end
 puts list.key(testcase)
-  puts testcase
 end
 
 ikea = {:chair => 25, :table => 85, :mattress => 450}

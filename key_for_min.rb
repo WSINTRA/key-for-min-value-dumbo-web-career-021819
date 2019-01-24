@@ -8,8 +8,9 @@ list.each do |x,y|
   if y < testcase
     testcase = y
   end
-  puts testcase
+
 end
+  puts testcase
 end
 
 ikea = {:chair => 25, :table => 85, :mattress => 450}

@@ -8,7 +8,8 @@ list.each do |x,y|
     testcase = y
   end
 end
-list.key(testcase)
+result = list.key(testcase)
+result
 end
 
 #ikea = {:blake => 500, :ashley => 2, :adam => 1}

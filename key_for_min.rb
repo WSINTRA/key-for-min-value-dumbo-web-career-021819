@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   store = []
-name_hash.each do |x|
-  store << x
+name_hash.each do |x,y|
+  store << (x,y)
 
 end
 puts store
